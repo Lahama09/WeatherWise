@@ -1,0 +1,88 @@
+body{
+    font-family: 'Poppins',sans-serif ;
+    background: radial-gradient(circle, #89f7fe, #66a6ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.card{
+    background: rgba(19, 173, 225, 0.2);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(6, 11, 79, 0.615);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    width: 320px;
+}
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+.search-box{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px 0;
+    font-size: 16px;
+    text-align: center;
+}
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightgray;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.weather-info{
+    padding: 10px;
+}
+.city-name{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.weather-icon{
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+.insta-icon i {
+    font-size: 40px;
+    height: 40px;
+    color: white;
+    display: block;
+    margin: 10px auto;
+    transition: transform 0.3s ease;
+}
+.insta-icon i:hover {
+    transform: scale(1.2);
+    color: #E4405F;
+}
+.temperature{
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+}
+.description {
+    font-size: 18px;
+    color: #fff;
+}
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
